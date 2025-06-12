@@ -1,0 +1,33 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-size: 16;
+}
+
+body {
+  background: #181a1b;
+  font-family: 'Share Tech Mono', monospace;
+  color: #0f0;
+  padding: 1rem;
+  text-shadow: 0 0 5px #0f0, 0 0 10px #0f0;
+}
+
+#reticle {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  border: 1px solid red;
+  border-radius: 50%;
+  background: transparent;
+  pointer-events: none;
+  top: 0;
+  left: 0;
+  transform: translate(-50%, -50%);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
