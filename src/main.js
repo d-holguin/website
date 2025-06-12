@@ -17,4 +17,8 @@ function animate() {
   requestAnimationFrame(animate);
 }
 
-animate();
+window.addEventListener("load", () => {
+  // All images, fonts, and stylesheets are fully loaded
+  animate();
+});
+  
